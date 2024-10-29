@@ -26,7 +26,6 @@ An intelligent assistant designed to enhance your job application experience. Wi
 project/
 ├── fast_api/                 # Backend (FastAPI)
 │   ├── .env                  # API keys and configurations
-│   ├── .gitignore
 │   ├── database.py
 │   ├── file.txt
 │   ├── graph.py
@@ -38,7 +37,6 @@ project/
 └── next_js/                  # Frontend (Next.js)
     ├── .env
     ├── .eslintrc.json
-    ├── .gitignore
     ├── next-env.d.ts
     ├── next.config.ts
     ├── package.json
