@@ -284,7 +284,4 @@ async def evaluate_resume(job_description: str = Form(...), resume: UploadFile =
 # Additional utility function for cleaning up
 # @app.on_event("shutdown")
 # def cleanup_temp_files():
-#     for f in os.listdir(BASE_DIR):
-#         if f.startswith("temp_"):
-#             os.remove(os.path.join(BASE_DIR, f))
 
